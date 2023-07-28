@@ -1,0 +1,18 @@
+{
+    "name": "oleksandr/php-leet-code",
+    "description": "\"php-leet-code\" is a public GitHub repository that provides solutions to LeetCode problems using the PHP programming language",
+    "type": "project",
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "PhpLeetCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "snowfallen",
+            "email": "bondarenkoov1998@gmail.com"
+        }
+    ],
+    "require": {}
+}
