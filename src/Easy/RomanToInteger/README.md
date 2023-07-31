@@ -52,19 +52,19 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 ### Solution
 
-* The function first checks if the length of the input $romanNumber is less than `1`. If so, it returns 0, indicating an
+1. The function first checks if the length of the input $romanNumber is less than `1`. If so, it returns 0, indicating an
   invalid input.
-* An array $romanNumbers is created, which maps each Roman numeral character `(I, V, X, L, C, D, M)` to its
+2. An array $romanNumbers is created, which maps each Roman numeral character `(I, V, X, L, C, D, M)` to its
   corresponding integer value `(1, 5, 10, 50, 100, 500, 1000)`.
-* The variable `$integerNumber` is initialized to `0`, which will be used to accumulate the resulting `integer` value.
-* A for loop iterates through the characters of the Roman numeral `string`, except for the last character (since we
+3. The variable `$integerNumber` is initialized to `0`, which will be used to accumulate the resulting `integer` value.
+4. A for loop iterates through the characters of the Roman numeral `string`, except for the last character (since we
   handle it separately later).
-* Within the loop, the function checks if the current Roman numeral character's value is less than the value of the next
+5. Within the loop, the function checks if the current Roman numeral character's value is less than the value of the next
   character. If so, it means a subtraction is needed, and the corresponding value is subtracted from `$integerNumber`.
-* If the current Roman numeral character's value is greater than or equal to the value of the next character, it means
+6. If the current Roman numeral character's value is greater than or equal to the value of the next character, it means
   an addition is needed, and the corresponding value is added to `$integerNumber`.
-* If the current character is not present in the `$romanNumbers` array, it indicates an invalid Roman numeral, and the
+7. If the current character is not present in the `$romanNumbers` array, it indicates an invalid Roman numeral, and the
   function returns `0`.
-* After the loop finishes, we add the value of the last Roman numeral character (the one at the end of the string)
+8. After the loop finishes, we add the value of the last Roman numeral character (the one at the end of the string)
   to `$integerNumber`.
-* The final calculated integer value is returned as the result.
+9. The final calculated integer value is returned as the result.
