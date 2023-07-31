@@ -23,15 +23,6 @@ Explanation: There is no common prefix among the input strings.
 
 ### Solution
 
-# Longest Common Prefix
-
-## Description
-
-This PHP class `LongestCommonPrefix` provides a method `getLongestCommonPrefix` to find the longest common prefix among
-an array of strings.
-
-## Function Explanation
-
 The `getLongestCommonPrefix` function takes an array of strings `$words` as input and returns the longest common prefix
 as a string.
 
