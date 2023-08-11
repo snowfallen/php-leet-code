@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLeetCode\Easy\LongestPalindromicSubstring;
+namespace PhpLeetCode\Medium\LongestPalindromicSubstring;
 
 class LongestPalindromicSubstring
 {
