@@ -1,7 +1,5 @@
 # Rozwiązania LeetCode w języku PHP
 
-![Logo LeetCode](https://leetcode.com/static/images/LeetCode_logo.png)
-
 ## Wprowadzenie
 
 Witamy w repozytorium "php-leet-code"! Ten projekt ma na celu dostarczenie rozwiązań w języku PHP do różnych zadań LeetCode. LeetCode to popularna platforma oferująca wiele wyzwań programistycznych, które pomagają rozwijać umiejętności rozwiązywania problemów algorytmicznych oraz przygotować się do rozmów kwalifikacyjnych.
