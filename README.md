@@ -1,7 +1,5 @@
 # PHP LeetCode Solutions
 
-![LeetCode Logo](https://leetcode.com/static/images/LeetCode_logo.png)
-
 ## Introduction
 
 Welcome to the "php-leet-code" repository! This project aims to provide PHP solutions to various LeetCode problems. LeetCode is a popular platform that offers a wide range of coding challenges to help developers enhance their algorithmic problem-solving skills and prepare for technical interviews.
